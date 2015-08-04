@@ -1,11 +1,13 @@
 package org.formation.fonctionnelle;
 
+import java.util.Scanner;
+
 public class ChineseZodiac {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		@SuppressWarnings("resource")
-		java.util.Scanner entree =   new java.util.Scanner(System.in);
+		Scanner entree = new Scanner(System.in);
 		System.out.println("Merci de saisir votre année de naissance ");
 		int x;			
 		x = entree.nextInt();	
